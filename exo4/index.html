@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithmics with JavaScript - Exercice 4</title>
+</head>
+<body>
+    <h2>Exercice 4.1</h2>
+    <div>Lenght: <input type="number" name="" id="lenght" onchange="calcSurface()">m</div>
+    <div>Width: <input type="number" name="" id="width" onchange="calcSurface()">m</div>
+    <div>Result: <span id="display1"></span></div>
+    <br>
+
+    <h2>Exercice 4.2</h2>
+    <input type="button" value="Random Number" onclick="rand10()">
+    <div id="display2"></div>
+    <br>
+
+    <h2>Exercice 4.3</h2>
+    <div>Array lenght: <input type="number" name="" id="arrayLength" onchange="multiRand()"></div>
+    <div id="display3"></div>
+    <br>
+
+    <h2>Exercice 4.4</h2>
+    <input type="number" id="nbOfStudents" onclick="pickLearner()"><span>nb of students</span>
+    <div id="display4"></div>
+    <br>
+
+    <h2>Exercice 4.5</h2>
+    <div>Point A:</div>
+    <div>X:<input type="number" name="" id="xA"></div>
+    <div>Y:<input type="number" name="" id="yA"></div>
+    <br>
+    <div>Point B:</div>
+    <div>X:<input type="number" name="" id="xB"></div>
+    <div>Y:<input type="number" name="" id="yB"></div>
+    <br>
+    <input type="button" value="caculate" onclick="calcDistance()">
+    <div id="display5"></div>
+    <br>
+
+    <h2>Exercice 4.6</h2>
+    <input type="number" name="" id="factorial" onchange="factorialInput()">
+    <div id="display6"></div>
+
+
+
+    <style>
+        input[type=number] {
+            width:50px;
+        }
+    </style>
+       
+</body>
+<script src="app.js" type="text/javascript"></script>
+</html>
